@@ -1,4 +1,4 @@
 print("Hello World")
 names = ['Robert', 'Jake','Richard']
-for x in names:
-	print(x)
+for name in names:
+	print(name)
