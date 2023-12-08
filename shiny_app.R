@@ -27,7 +27,7 @@ server <- function(input, output) {
   # Generate a histogram of the random data
   output$hist <- renderPlot({
     hist(rnorm(input$obs), main = "Histogram of Random Data",
-         col = "lightblue", border = "black")
+         col = "red", border = "white")
   })
 }
 
